@@ -1,0 +1,8 @@
+file gary-1.jpeg
+outpoint 2
+file gary-2.jpeg
+outpoint 6
+file gary-3.jpeg
+outpoint 14
+file gary-4.jpeg
+outpoint 2
