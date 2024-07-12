@@ -93,3 +93,11 @@ Open gary-1 => 4, and open gary2.mp4, and you should see gary-1 for 2 seconds, g
 Leaving this here, if we wanted to add audio track
 
 ```ffmpeg -f concat -i in.txt -framerate 1 -i orig/audio.ogg -c:v libx264 -c:a copy -shortest -r 30 -pix_fmt yuv420p black.mp4```
+
+
+This looks interesting,
+
+ts_from_file
+If set to 1, will set frame timestamp to modification time of image file. Note that monotonity of timestamps is not provided: images go in the same order as without this option. Default value is 0. If set to 2, will set frame timestamp to the modification time of the image file in nanosecond precision.
+
+From https://ffmpeg.org/ffmpeg-formats.html#image2-1
