@@ -12,7 +12,7 @@ Download, create a python .venv
 
 source .venv/bin/activate
 
-Then pip install requirements.txt should get you close
+Then pip install -i < requirements.txt should get you close
 
 ### POC details
 
